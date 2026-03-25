@@ -5,25 +5,6 @@
 }
 
 :root {
-    /* Color */
-    --bg: hsl(0, 0%, 94%);
-    --text: hsl(0, 0%, 5%);
-    --primary: hsl(256, 70%, 60%);
-    --secondary: hsl(46, 100%, 70%);
-    --accent: hsl(0, 100%, 50%);
-
-    --text-light: hsl(0, 0%, 95%);
-
-    --bg-light: hsl(256, 13%, 81%);
-
-    --primary65: hsl(256, 70%, 65%);
-    --primary70: hsl(256, 70%, 70%);
-    --primary80: hsl(256, 70%, 80%);
-
-    --secondary70: hsl(46, 70%, 70%);
-    --secondary80: hsl(46, 70%, 80%);
-
-    --text10: hsl(0, 0%, 10%);
 
     /* Text Size */
     --p: 1rem;
@@ -61,8 +42,26 @@ h5{
     font-size: var(--h5)
 }
 
+section{
+    padding:70px;
+}
+
+button{
+    padding: 10px 15px;
+    border: 0px solid;
+    border-radius: 5px;
+    font-size: var(--p);
+    color:hsl(0, 0%, 6%);
+    font-weight:500;
+    background-color: hsl(221, 100%, 83%)
+}
+
+button:hover{
+    background-color: hsl(222, 100%, 88%)
+}
+
 .navbar {
-    background-color: var(--bg-light);
+    background-color: hsl(200, 11%, 84%);
     padding: 0px 10px;
     display: flex;
     justify-content: space-between;
@@ -70,10 +69,12 @@ h5{
     gap: 100px;
     height: 12vh;
     position: sticky;
+    top:0px;
+    z-index:100;
 }
 
 .navbar__left {
-    flex: 1 0 0;
+    flex: 1 1 0;
     height: 100%;
     margin-left: 80px;
     display: flex;
@@ -83,7 +84,7 @@ h5{
 }
 
 .navbar__logo {
-    background-color: var(--bg);
+    background-color: hsl(0, 0%, 94%);
     width: 7%;
     height: 50%;
     border: 0px solid;
@@ -95,9 +96,8 @@ h5{
 }
 
 .navbar__right {
-    flex: 1 0 0;
+    flex: 1 1 0;
     height: 100%;
-    margin-right:50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,18 +111,18 @@ h5{
     font-size: var(--p);
     color:hsl(0, 0%, 6%);
     font-weight:500;
-    background-color: hsl(221, 95%, 75%)
+    background-color: hsl(221, 100%, 83%)   
 }
 
 .navbar__right button:hover{
-    background-color: hsl(221, 100%, 83%)
+    background-color: hsl(222, 100%, 88%)
 }
 
 .navbar__home{
 
 }
 
-.navbar__spec{
+.navbar__facilities{
 
 }
 
@@ -135,7 +135,8 @@ h5{
 }
 
 .hero{
-    padding:100px;
+    padding:70px;
+    background-color:#e3f6f5;
 }
 
 .hero__container{
@@ -145,10 +146,12 @@ h5{
     justify-content:center;
     align-items:center;
     gap:30px;
+    padding: 50px;
 }
 
 .hero__title{
-    margin-bottom:30px;
+    text-align:center;
+    margin-bottom:10px;
 }
 
 .hero__subtitle{
@@ -157,6 +160,58 @@ h5{
     max-width:50ch;
 }
 
+.hero__buttons{
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    gap:70px;
+}
+
+.hero__button__primary{
+    padding: 15px 20px;
+    background-color:#ffd803;
+    font-weight:bold;
+}
+
+.hero__button__primary:hover{
+    background-color:#ffef93;
+}
+
+.hero__button__secondary{
+    background-color:#dedede;
+}
+
+.hero__button__secondary:hover{
+    background-color:#f3f3f3;
+}
+
 .about{
     
+}
+
+.about__container{
+    background-color:#ffef93;
+    height:auto;
+    display:flex;
+    border: 0px solid;
+    border-radius:10px;
+}
+
+.about__container__left{
+    padding:50px;
+    flex: 2 1;  
+}
+
+.about__title{
+    margin-bottom:40px;
+}
+
+.about__subtitle{
+    font-weight:400;
+    margin-bottom:40px;
+}
+
+.about__container__right{
+    flex: 1 1;
+    background-color:#d9d9d9
 }
