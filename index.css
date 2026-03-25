@@ -109,13 +109,12 @@ button:hover{
     border: 0px solid;
     border-radius: 5px;
     font-size: var(--p);
-    color:hsl(0, 0%, 6%);
+    color:hwb(0 6% 94%);
     font-weight:500;
-    background-color: hsl(221, 100%, 83%)   
 }
 
 .navbar__right button:hover{
-    background-color: hsl(222, 100%, 88%)
+    
 }
 
 .navbar__home{
@@ -164,7 +163,7 @@ button:hover{
     margin-top:50px;
     display:flex;
     justify-content:center;
-    gap:70px;
+    gap:100px;
 }
 
 .hero__button__primary{
@@ -178,11 +177,11 @@ button:hover{
 }
 
 .hero__button__secondary{
-    background-color:#dedede;
+    background-color:hsl(0, 0%, 90%);
 }
 
 .hero__button__secondary:hover{
-    background-color:#f3f3f3;
+    background-color: hsl(0, 0%, 99%);
 }
 
 .about{
