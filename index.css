@@ -133,3 +133,30 @@ h5{
 .navbar__contact{
 
 }
+
+.hero{
+    padding:100px;
+}
+
+.hero__container{
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.hero__title{
+    margin-bottom:30px;
+}
+
+.hero__subtitle{
+    text-align:center;
+    font-weight:500;
+    max-width:50ch;
+}
+
+.about{
+    
+}
