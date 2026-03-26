@@ -212,4 +212,12 @@ button:hover{
 
 .about__container__right{
     flex: 1 1;
+    padding: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.about__container__right img{
+    height: 80vh;
 }
