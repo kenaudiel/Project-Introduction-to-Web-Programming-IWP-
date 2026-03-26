@@ -5,6 +5,7 @@
 }
 
 :root {
+    
 
     /* Text Size */
     --p: 1rem;
@@ -222,6 +223,10 @@ button:hover{
     height: 80vh;
 }
 
+.specification{
+    background-color:#e3f6f5;
+}
+
 .footer{
-    
+
 }
