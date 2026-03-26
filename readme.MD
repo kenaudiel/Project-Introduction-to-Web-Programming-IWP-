@@ -10,3 +10,5 @@ This is a code repository for our first frontend website. It serves as web-based
 - Frontend: HTML + CSS (Without framework)
 - Version Control: Git
 - IDE: VSCode
+
+tambahin icon disamping judul
