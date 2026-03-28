@@ -229,7 +229,14 @@ button:hover{
 }
 
 .facilities__title{
-    margin-bottom: 50px;
+    margin-bottom:5px;
+}
+
+.facilities__subtitle{
+    margin-top:30px;
+    margin-bottom: 70px;
+    font-weight:400;
+    max-width:65ch;
 }
 
 .facilities__container{
@@ -255,11 +262,12 @@ button:hover{
 }
 
 .facilities__card__title{
-    margin-bottom:30px;
+    margin-bottom:25px;
+    margin-left:5px;
 }
 
 .facilities__card__subtitle{
-    
+    margin-left: 5px;
 }
 
 .footer{
