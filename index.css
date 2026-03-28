@@ -221,6 +221,7 @@ button:hover{
 
 .about__container__right img{
     height: 80vh;
+    border-radius: 10px;
 }
 
 .facilities{
@@ -234,7 +235,7 @@ button:hover{
 .facilities__container{
     display:grid;
     grid-template-columns:repeat(3, minmax(0, 1fr));
-    grid-template-rows:repeat(3, 300px);
+    grid-template-rows:repeat(2, 400px);
     grid-auto-rows:300px;
     gap:20px;
 }
@@ -247,7 +248,10 @@ button:hover{
 }
 
 .facilities__card img{
-
+    height: 30vh;
+    width:100%;
+    border-radius: 10px;
+    margin-bottom:10px;
 }
 
 .facilities__card__title{
