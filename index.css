@@ -54,7 +54,7 @@ button{
     font-size: var(--p);
     color:hsl(0, 0%, 6%);
     font-weight:500;
-    background-color: hsl(221, 100%, 83%)
+    background-color: hsl(221, 100%, 83%);
 }
 
 button:hover{
@@ -111,7 +111,7 @@ button:hover{
     border-radius: 5px;
     font-size: var(--p);
     color:hwb(0 6% 94%);
-    font-weight:500;
+    font-weight:600;
 }
 
 .navbar__right button:hover{
@@ -169,16 +169,18 @@ button:hover{
 
 .hero__button__primary{
     padding: 15px 20px;
-    background-color:#ffd803;
+    background-color:#fee869;
     font-weight:bold;
+    font-size:18px;
 }
 
 .hero__button__primary:hover{
-    background-color:#ffef93;
+    background-color:#fbeea6;
 }
 
 .hero__button__secondary{
     background-color:hsl(0, 0%, 90%);
+    font-size:18px;
 }
 
 .hero__button__secondary:hover{
