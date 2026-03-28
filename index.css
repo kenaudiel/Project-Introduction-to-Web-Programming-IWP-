@@ -210,10 +210,11 @@ a:hover{
 }
 
 .about__title{
-    margin-bottom:40px;
+    margin-bottom:5px;
 }
 
 .about__subtitle{
+    margin-top:40px;
     font-weight:400;
     margin-bottom:40px;
 }
@@ -249,7 +250,7 @@ a:hover{
 .facilities__container{
     display:grid;
     grid-template-columns:repeat(3, minmax(0, 1fr));
-    grid-template-rows:repeat(2, 400px);
+    grid-template-rows:repeat(2, 450px);
     grid-auto-rows:300px;
     gap:20px;
 }
@@ -269,12 +270,13 @@ a:hover{
 }
 
 .facilities__card__title{
-    margin-bottom:25px;
+    margin-bottom:30px;
     margin-left:5px;
 }
 
 .facilities__card__subtitle{
     margin-left: 5px;
+    font-size:18px;
 }
 
 .footer{
