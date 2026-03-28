@@ -227,6 +227,37 @@ button:hover{
     background-color:#e3f6f5;
 }
 
+.facilities__title{
+    margin-bottom: 50px;
+}
+
+.facilities__container{
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    grid-template-rows:repeat(3, 300px);
+    grid-auto-rows:300px;
+    gap:20px;
+}
+
+.facilities__card{
+    background-color:white;
+    padding:20px;
+    border: 0px solid;
+    border-radius:10px;
+}
+
+.facilities__card img{
+
+}
+
+.facilities__card__title{
+    margin-bottom:30px;
+}
+
+.facilities__card__subtitle{
+    
+}
+
 .footer{
 
 }
