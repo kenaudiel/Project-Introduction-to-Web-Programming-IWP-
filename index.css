@@ -54,11 +54,23 @@ button{
     font-size: var(--p);
     color:hsl(0, 0%, 6%);
     font-weight:500;
-    background-color: hsl(221, 100%, 83%);
+    
 }
 
 button:hover{
     background-color: hsl(222, 100%, 88%)
+}
+
+a{
+    color: hsl(0, 0%, 4%);
+    font-weight: bold;
+    font-size:20px;
+    white-space: nowrap;
+    text-decoration:none;
+}
+
+a:hover{
+    color: hsl(222, 76%, 67%)
 }
 
 .navbar {
@@ -93,7 +105,8 @@ button:hover{
 }
 
 .navbar__site-name {
-    font-size: var(--h5);
+    font-size: 24px;
+    color: hsl(222, 50%, 48%)
 }
 
 .navbar__right {
@@ -102,20 +115,8 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-}
-
-.navbar__right button{
-    padding: 10px 15px;
-    border: 0px solid;
-    border-radius: 5px;
-    font-size: var(--p);
-    color:hwb(0 6% 94%);
-    font-weight:600;
-}
-
-.navbar__right button:hover{
-    
+    gap: 30px;
+    margin-right:50px;
 }
 
 .navbar__home{
