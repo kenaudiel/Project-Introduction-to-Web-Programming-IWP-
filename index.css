@@ -106,7 +106,7 @@ a:hover{
 
 .navbar__site-name {
     font-size: 24px;
-    color: hsl(222, 50%, 48%)
+    color: hsl(222, 61%, 52%)
 }
 
 .navbar__right {
@@ -153,6 +153,10 @@ a:hover{
 .hero__title{
     text-align:center;
     margin-bottom:10px;
+}
+
+.hero__title span{
+    color: hsl(222, 61%, 52%)
 }
 
 .hero__subtitle{
