@@ -5,8 +5,6 @@
 }
 
 :root {
-
-
     /* Text Size */
     --p: 1rem;
     --font-scaling: 1.333;
@@ -15,12 +13,6 @@
     --h3: calc(var(--h4) * var(--font-scaling));
     --h2: calc(var(--h3) * var(--font-scaling));
     --h1: calc(var(--h2) * var(--font-scaling));
-
-    /* Semantic Colors */
-    --success: hsl(147, 90%, 50%);
-    --warning: hsl(60, 82%, 55%);
-    --error: hsl(147, 82%, 55%);
-    --info: hsl(147, 82%, 55%);
 }
 
 h1{
@@ -280,5 +272,64 @@ a:hover{
 }
 
 .footer{
+    display:flex;
+    flex-wrap:nowrap;
+    gap:20px;
+    background-color: hsl(200, 11%, 84%);
+}
 
+.footer-1{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap: 10px;
+}
+
+.footer__brand{
+    display:flex;
+    align-items:center;
+    gap: 25px;
+}
+
+.footer__brand img{
+    height:10vh;
+}
+
+.footer-1 p{
+    max-width:30ch;
+    font-weight:400;
+    margin-top:20px;
+    text-align:justify;
+    font-size:18px;
+}
+
+.footer-1 button{
+    margin-top:40px;
+    padding: 10px 15px; 
+    width:60%;
+    background-color:#fee869;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.footer-1 button:hover{
+    background-color:#fbeea6;
+}
+
+.footer__title{
+    color: hsl(222, 61%, 52%)
+}
+
+.footer__sosmed{
+
+}
+
+.footer__sosmed img{
+    height: 5vh;
+}
+
+.sosmed__list{
+    display:flex;
+    align-items:center;
+    gap:10px;
 }
