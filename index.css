@@ -98,10 +98,10 @@ a:hover{
 
 .navbar__logo {
     background-color: hsl(0, 0%, 94%);
-    width: 7%;
+    width: 10%;
     height: 50%;
     border: 0px solid;
-    border-radius: 100px;
+    border-radius:10px;
 }
 
 .navbar__site-name {
