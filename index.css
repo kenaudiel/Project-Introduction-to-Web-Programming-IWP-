@@ -37,6 +37,7 @@ h5{
 
 section{
     padding:80px;
+    width:100vw;
 }
 
 img{
@@ -111,6 +112,17 @@ a:hover{
     align-items: center;
     gap: 30px;
     margin-right:50px;
+}
+
+.navbar__menu{
+    display:none;
+    height:5vh;
+    width:4%;
+    margin-right:40px;
+}
+
+.navbar__menu:hover{
+    
 }
 
 .navbar__home{
@@ -427,6 +439,16 @@ a:hover{
     margin-bottom:5px;
     border-radius:10px;
     padding:5px;
+}
+
+@media (max-width:800px){
+    .navbar__right{
+        display:none;
+    }
+
+    .navbar__menu{
+        display:inline;
+    }
 }
 
 @media (max-width:999px){
