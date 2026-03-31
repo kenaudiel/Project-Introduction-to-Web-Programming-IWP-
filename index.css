@@ -88,10 +88,11 @@ a:hover{
 .navbar__mobile{
     display:flex;
     flex-direction:column;
+    gap:10px;
 }
 
-.navbar__mobile a{
-
+.navbar__mobile a:hover{
+    color: hsl(222, 76%, 67%)
 }
 
 .navbar {
@@ -476,6 +477,17 @@ a:hover{
 
     .navbar__menu{
         display:inline;
+    }
+
+    .facilities
+
+    .footer{
+        flex-direction:column;
+        gap:50px;
+    }
+
+    .footer-1, .footer-2, .footer-3{
+        width:50%
     }
 }
 
