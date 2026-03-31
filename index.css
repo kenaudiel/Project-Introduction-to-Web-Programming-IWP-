@@ -466,31 +466,6 @@ a:hover{
     padding:5px;
 }
 
-@media (max-width:800px){
-    .navbar__right{
-        display:none;
-    }
-
-    .navbar__mobile__div{
-        z-index:101;
-    }
-
-    .navbar__menu{
-        display:inline;
-    }
-
-    .facilities
-
-    .footer{
-        flex-direction:column;
-        gap:50px;
-    }
-
-    .footer-1, .footer-2, .footer-3{
-        width:50%
-    }
-}
-
 @media (max-width:999px){
     .facilities__container{
         grid-template-columns:repeat(2, minmax(0, 1fr));
@@ -510,4 +485,45 @@ a:hover{
         flex-direction:column;
     }
 }
+
+@media (min-width:801px){
+    .navbar__mobile__div{
+        display:none;
+    }
+}
+
+@media (max-width:750px){
+    .navbar__right{
+        display:none;
+    }
+
+    .navbar__mobile__div{
+        z-index:101;
+    }
+
+    .navbar__menu{
+        display:inline;
+    }
+
+    .facilities__container{
+        grid-template-columns:repeat(1, minmax(0, 1fr));
+        grid-template-rows:repeat(6, 450px);
+        justify-items:center;
+    }
+
+    .facilities__card{
+        width:50%;
+    }
+
+    .footer{
+        flex-direction:column;
+        gap:50px;
+    }
+
+    .footer-1, .footer-2, .footer-3{
+        width:50%
+    }
+}
+
+
 
