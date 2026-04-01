@@ -1,15 +1,20 @@
 # 📋 Table of Contents
-1. [🏨 Introduction](#-introduction)
-2. [✨ Key Features](#-key-features)
-3. [⚙️ Tech Stack](#️-tech-stack)
+1. 🏨 [Introduction](#-introduction)
+2. ✨ [Key Features](#-key-features)
+3. ⚙️ [Tech Stack](#️-tech-stack)
 
 # 🏨 Introduction
-The website serves as web-based hotel booking platform that displays some information relating to the hotel, including facilities, location, etc. With this, user could This is a code repository for our first frontend website project. This was meant to complete our assignment in subject "Introduction to Web Programming". 
+Vago Hotel is a modern-looking hotel built to deliver seamless and elegant experiences for travelers seeking comfort and luxury. Our website serves as web-based hotel booking platform that showcases Vago hotel's rooms & suites, facilities, and booking option. It helps guests to effortlessly explore and plan their perfect stay during vacation. 
+
+Whether you're looking for a city escape in Jakarta, Vago Hotel brings world-class hospitality right to your fingertips.
+
+> **Disclaimer**
+> This project is created solely for educational purposes as part of the **"Introduction to Web Programming"** course assignment. All content, including text, images, and design, are used for non-commercial and academic use only. Any resemblance to existing products or services is purely coincidental. If you wish to use or reference this project, please credit the original authors.
 
 # ✨ Key Features
-- Sticky Navigation: Navbar that stays on top while scrolling.
-- Modern Layout: Using Flexbox & Grid layouts.
-- Responsive Interface: Mobile-friendly website interface.
+👉 Sticky Navigation: Navbar that stays on top while scrolling.
+👉 Modern Layout: Using Flexbox & Grid layouts.
+👉 Responsive Interface: Mobile-friendly website interface.
 
 # ⚙️ Tech Stack
 - Frontend: HTML + CSS + JS (No Framework)
