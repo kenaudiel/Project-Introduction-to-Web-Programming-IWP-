@@ -268,6 +268,57 @@ a:hover{
     border-radius: 10px;
 }
 
+.room{
+    background-color:hsl(0, 0%, 96%);
+}
+
+.room__subtitle{
+    margin-top:40px;
+    font-weight:400;
+    max-width:60ch;
+}
+
+.room__container{
+    padding:40px;
+    background-color: #e3f6f5;
+    border-radius:10px;
+    margin-top:70px;
+    gap:20px;
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 300px));
+}
+
+.room__card{
+    background-color:white;
+    padding:30px;
+    border: 0px solid;
+    border-radius:10px;
+    display:flex;
+    gap:20px;
+}
+
+.room__card img{
+    height: 30vh;
+    width:50%;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.room__card__detail{
+
+}
+
+.room__card__title{
+    margin-bottom:30px;
+    margin-left:5px;
+}
+
+.room__card__subtitle{
+    margin-left: 5px;
+    font-size:18px;
+}
+
 .facilities{
     background-color:#e3f6f5;
 }
