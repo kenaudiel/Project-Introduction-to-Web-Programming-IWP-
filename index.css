@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 :root {
     /* Text Size */
     --p: 1rem;
@@ -38,6 +42,7 @@ h5{
 section{
     padding:80px;
     width:100vw;
+    scroll-margin-top:12vh;
 }
 
 img{
