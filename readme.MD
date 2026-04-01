@@ -1,7 +1,7 @@
 # 📋 Table of Contents
-1. Introduction
-2. Key Features
-3. Tech Stack
+1. [🏨 Introduction](#-introduction)
+2. [✨ Key Features](#-key-features)
+3. [⚙️ Tech Stack](#️-tech-stack)
 
 # 🏨 Introduction
 The website serves as web-based hotel booking platform that displays some information relating to the hotel, including facilities, location, etc. With this, user could This is a code repository for our first frontend website project. This was meant to complete our assignment in subject "Introduction to Web Programming". 
