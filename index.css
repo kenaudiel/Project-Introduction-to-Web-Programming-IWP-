@@ -302,7 +302,7 @@ a:hover{
 }
 
 .room__card__price{
-    margin-top:30px;
+    margin-top:20px;
 }
 
 .facilities{
@@ -498,6 +498,11 @@ a:hover{
 }
 
 @media (max-width:999px){
+    .room__container{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-rows: repeat(4, minmax(0, 300px));
+    }
+    
     .facilities__container{
         grid-template-columns:repeat(2, minmax(0, 1fr));
         grid-template-rows:repeat(3, 450px);
