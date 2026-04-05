@@ -40,6 +40,8 @@ Whether you're looking for a city escape in Jakarta, Vago Hotel brings world-cla
 👉 **Responsive Interface**: Mobile-friendly website interface, ensuring usability on different platform.
 
 # ⚙️ Tech Stack
-- HTML5 + CSS3 + JS (No Framework)
+- HTML5
+- CSS3
+- JavaScript
 - Version Control: Git
 - Icon: Iconify Design
